@@ -1,0 +1,33 @@
+.con {
+    display: flex;
+
+}
+
+.main {
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.input {
+    display: flex;
+}
+
+.inputclass input{
+    width: 11rem;
+    height: 1.5rem;
+}
+
+.inputclass {
+    padding-left: 1rem;
+}
+
+.select {
+    width: 11rem;
+    height: 1.5rem;
+}
+.buttonsub{
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+}

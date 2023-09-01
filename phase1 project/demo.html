@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+
+<body>
+    <div class="con">
+        <div class="main">
+            <div class="addTask">
+                <div class="heading">
+                    <h1>
+                        Add Task
+                    </h1>
+                </div>
+                <div class="form">
+                    <form action="">
+                        <div class="input">
+                            <div class="inputclass">
+                                <input type="number" placeholder="Enter id" class="addid">
+                            </div>
+                            <div class="inputclass">
+                                <input type="text" placeholder="add task" class="task-input">
+                            </div>
+                            <div class="inputclass">
+                                <select name="task-status" id="task-status" class="select">
+                                    <option value="inprogress">inprogress</option>
+                                    <option value="completed">Completed</option>
+                                    <option value="duepassed">Due Passed</option>
+                                    <option value="canceled">Canceled</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="">Start Date</label>
+                            <input type="date" placeholder="start date" class="addstartdate">
+                        </div>
+                        <div>
+                            <label for="">End Date</label>
+                            <input type="date" placeholder="enddate date" class="addenddate">
+                        </div>
+                        <div class="buttonsub">
+                            <button type="submit" class="submitbutton">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="addSubtask">
+                
+            </div>
+        </div>
+        <div class="main">
+            <div class="addTask">
+                <div class="heading">
+                    <h1>
+                        Add SubTask
+                    </h1>
+                </div>
+                <div class="form">
+                    <form action="">
+                       
+                        <div>
+                            <input type="text" placeholder="add Subtask" class="subtask-input">
+                        </div>
+                        <div>
+                            <select name="subtask-status" id="subtask-status">
+                                <option value="inprogress">inprogress</option>
+                                <option value="completed">Completed</option>
+                                <option value="duepassed">Due Passed</option>
+                                <option value="canceled">Canceled</option>
+                    
+                            </select>
+                        </div>
+
+                        <div>
+                            <input type="date" placeholder="start date" class="addstartdate">
+                        </div>
+                        <div>
+                            <input type="date" placeholder="enddate date" class="addenddate">
+                        </div>
+                        <div>
+                            <button type="submit" class="submitbutton">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="addSubtask">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
